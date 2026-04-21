@@ -2,47 +2,83 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Peças Recomendadas - PC Gamer 2026</title>
+    <title>Peças Selecionadas - PC Gamer 2026</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="pecas.html">Peças Selecionadas</a></li>
-            <li><a href="montagem.html">Teste de perfomance</a></li>
-            <li><a href="montagem.html">Contato</a></li>
-        </ul>
-    </nav>
-    <hr>
-    <h1>Lista de Componentes Selecionados</h1>
-    <p>Confira as peças escolhidas para o melhor equilíbrio entre <strong>preço e performance</strong> em 2026:</p>
-    
-    <h2>1. Processador: AMD Ryzen 5 5600</h2>
-    <img src="images/processador.jpg" alt="Processador Ryzen 5600" width="300">
-    <p>Preço Médio: <strong>R$ 850</strong>. Um processador de 6 núcleos e 12 threads que ainda domina o segmento intermediário.</p>
+    <header>
+        <h1>PC Gamer 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="pecas.html">Peças Selecionadas</a></li>
+                <li><a href="teste.html">Teste de Performance</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h2>2. Placa-mãe: MSI B550M Pro-VDH WiFi</h2>
-    <img src="images/placa-mae.webp" alt="Placa-mãe B550M" width="300">
-    <p>Preço Médio: <strong>R$ 750</strong>. Oferece suporte a PCIe 4.0 e já vem com WiFi integrado.</p>
+    <main>
+        <h2>Componentes Selecionados</h2>
+        <p>Escolhemos cada peça focando no melhor equilíbrio entre preço e desempenho para 2026.</p>
 
-    <h2>3. Placa de Vídeo: AMD RX 6750 XT 12GB</h2>
-    <img src="images/placa-video.webp" alt="Placa de vídeo RX 6750 XT" width="300">
-    <p>Preço Médio: <strong>R$ 2.100</strong>. Excelente para jogar em 1440p com alta taxa de quadros.</p>
+        <div class="flex-container">
+            
+            <article class="card-peca">
+                <h3>1. Processador</h3>
+                <img src="images/processador.jpg" alt="AMD Ryzen 5 5600">
+                <p><strong>Modelo:</strong> AMD Ryzen 5 5600</p>
+                <p class="preco">Custo: R$ 850</p>
+            </article>
 
-    <h2>4. Memória RAM: 16GB (2x8GB) 3200MHz</h2>
-    <img src="images/memoria.jpg" alt="Memórias DDR4 Fury" width="300">
-    <p>Preço Médio: <strong>R$ 450</strong>. Configuração em dual-channel para extrair o máximo do processador.</p>
+            <article class="card-peca">
+                <h3>2. Placa-mãe</h3>
+                <img src="images/placa-mae.webp" alt="B550M Pro-VDH">
+                <p><strong>Modelo:</strong> B550M Pro-VDH WiFi</p>
+                <p class="preco">Custo: R$ 750</p>
+            </article>
 
-    <h2>5. Armazenamento: SSD NVMe M.2 1TB</h2>
-    <img src="images/ssd.webp" alt="SSD Kingston NV2" width="300">
-    <p>Preço Médio: <strong>R$ 450</strong>. Espaço e velocidade de leitura de 3500MB/s.</p>
+            <article class="card-peca">
+                <h3>3. Placa de Vídeo</h3>
+                <img src="images/placa-video.webp" alt="RX 6750 XT">
+                <p><strong>Modelo:</strong> RX 6750 XT 12GB</p>
+                <p class="preco">Custo: R$ 2.100</p>
+            </article>
 
-    <h2>6. Fonte: MSI MAG A650BN 650W</h2>
-    <img src="images/fonte.webp" alt="Fonte MSI 650W" width="300">
-    <p>Preço Médio: <strong>R$ 300</strong>. Certificação 80 Plus Bronze para garantir energia segura.</p>
+            <article class="card-peca">
+                <h3>4. Memória RAM</h3>
+                <img src="images/memoria.jpg" alt="Memória 16GB">
+                <p><strong>Modelo:</strong> 16GB DDR4 3200MHz</p>
+                <p class="preco">Custo: R$ 450</p>
+            </article>
 
-    <h2>7. Gabinete: Montech X3 Mesh</h2>
-    <img src="images/gabinete.webp" alt="Gabinete Gamer Montech" width="300">
-    <p>Preço Médio: <strong>R$ 250</strong>. Painel frontal em mesh e 6 ventoinhas inclusas para máximo fluxo de ar.</p>
+            <article class="card-peca">
+                <h3>5. Armazenamento</h3>
+                <img src="images/ssd.webp" alt="SSD NVMe 1TB">
+                <p><strong>Modelo:</strong> SSD NVMe 1TB</p>
+                <p class="preco">Custo: R$ 450</p>
+            </article>
+
+            <article class="card-peca">
+                <h3>6. Fonte</h3>
+                <img src="images/fonte.webp" alt="Fonte MSI 650W">
+                <p><strong>Modelo:</strong> MSI MAG A650BN</p>
+                <p class="preco">Custo: R$ 300</p>
+            </article>
+
+            <article class="card-peca">
+                <h3>7. Gabinete</h3>
+                <img src="images/gabinete.webp" alt="Gabinete Montech">
+                <p><strong>Modelo:</strong> Montech X3 Mesh</p>
+                <p class="preco">Custo: R$ 300</p>
+            </article>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Contato: contato@guiapcgamer.com.br</p>
+        <p>Siga-nos: Instagram | YouTube</p>
+    </footer>
 </body>
 </html>
